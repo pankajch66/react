@@ -1,0 +1,16 @@
+1.What is 'NPM'?
+-NPM(Node Package Manager)it is a standard repository of all the packages that why it is a package manager when we install Node.js It provides way to developers to install packages both globally and locally. Any package user need to include in the app is available in NPM, all the libraries, all the utilities that user need comes from npm, and npm manages it. 
+
+2.What is 'Parcel/Webpack'?Why do we need it?
+-Parcel and webpack are the bundlers used mostly for JavaScript or Typescript code that helps you to minify, clean, and make your code compact so that it becomes easier to send a request or receive the response from the server when it usually takes you to transfer multiple files without using any bundler for loading the page of your application. Along with that both bundlers 'parcel and webpack' remove the unneccessary comments, new lines, any kind of block delimeters, and white spaces while the functionality of the code remains unchanged. Webpack provides more fine-grained control over how assets are processed and optimized, while Parcel offers a simpler approach with zero-config defaults.
+
+3.What is '.parcel-cache'?
+-.parcel-cache stores information about the project when parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch. It's a key reason why parcel can be so fast in development mode.
+
+4.What is npx?
+-npx stands for Node Package Execute. NPX is an NPM package runner that makes it really easy to install any sort of node executable, that would have normally been installed using NPM. when we run a package using npx, it searches for the package in the local and global registry, and then it runs the package. If the package is not already installed, NPX downloads the package files and installs the package, but it will only cache the files instead of saving it. 
+
+5. What is difference between 'dependencies' vs 'devDependencies'?
+-In a NodeJS application, package.json is very important as it contains all metadata information about that Project or application. out of several other properties in package.json, dependencies and devDependencies are two important properties. both are two plain JSON (Java Script Object Notation) objects in package.json. 
+**devDependencies: This property containes the names and version of the node module which are requires only for development purpose.
+**dependencies: this property contains the name and version of the node module which are required at runtime. These modules will also be downloaded as dependent package if the application is published as NPM package and used as npm install [package name].
