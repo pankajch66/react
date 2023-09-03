@@ -21,3 +21,4 @@ depth dependencies is required for a development phase but normal dependencies u
 8. most important package in our project is bundler. 
 9. bundler minify our codes, compress our codes before it can be send to production.
 10. parcel will ignite out app, it gives strength to our app.
+11. if we have package.json and package-lock.json then we can regenerate node_modules again even if we have delete it.
