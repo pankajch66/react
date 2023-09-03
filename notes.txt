@@ -1,0 +1,23 @@
+1.Emmet in VS Code: It basically generate some code.
+2.Browser have Javascript engine to run all code in java script.
+3.CDN is the website which has hosted react and we are just fetching react from it.
+4. What is cross origin?
+5.{} this is a attribute for tags means we can assign class and id to tag in it.
+6. react element is nothing but a normal javascript object which converts to HTML that browser understand.
+7.root.render() - it is putting html to root. if some tags is there in html then all tags insiede root element will be replaced.
+
+
+episode-2
+
+1.NPM(Node Package Manager)it is a package manager
+any package user need to include in the app is available in NPM, all the libraries, all the utilities that user need comes from npm, and npm manages it.
+2.package.json is basically configuration of our npm.
+3. there are two types of packages/dependencies we can install i:depth dependencies and the ii: normal dependencies
+depth dependencies is required for a development phase but normal dependencies used in production phase.
+4.Package.json (it keeps a track of what version of that package installed in to our system) 
+5.Package-lock.json - Keeps a track of exact version that is installed in our system.
+6.node_module - it contains all the code that we fetch from npm.
+7.transitive dependencies - our project has apackage.json, which shows that a package has adependencies and that dependencies has its own dependencies.
+8. most important package in our project is bundler. 
+9. bundler minify our codes, compress our codes before it can be send to production.
+10. parcel will ignite out app, it gives strength to our app.

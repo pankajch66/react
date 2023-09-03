@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This a react tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajch66/React-course.git"
+  },
+  "keywords": [],
+  "author": "Pankaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankajch66/React-course/issues"
+  },
+  "homepage": "https://github.com/pankajch66/React-course#readme",
+  "dependencies": {
+    "msgpackr-extract": "^3.0.2"
+  },
+  "devDependencies": {}
+}
