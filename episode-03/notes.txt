@@ -1,0 +1,4 @@
+1. if we do run start that means we are calling npm run start this call 'parcel index.html'.
+- "sart :"parcel index.html"",
+-"build":"parcel build.html",
+="text":"jest";
