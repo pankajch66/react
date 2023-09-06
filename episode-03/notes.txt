@@ -1,3 +1,8 @@
+---for adding written code to git 
+first - write "git add ." press enter
+second - write "git commit -m "message which you want to commit""
+third - write "git pusm origin main" thats all. 
+
 1. if we do run start that means we are calling npm run start this call 'parcel index.html'.
 - "sart :"parcel index.html"",
 -"build":"parcel build.html",

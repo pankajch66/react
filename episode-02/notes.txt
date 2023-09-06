@@ -1,0 +1,2 @@
+-package.jason is a configuration for npm. Some time this packages are known as dependencies.
+-most important package in our project is bundler.
