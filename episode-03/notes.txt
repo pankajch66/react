@@ -7,3 +7,5 @@ third - write "git pusm origin main" thats all.
 - "sart :"parcel index.html"",
 -"build":"parcel build.html",
 ="text":"jest";
+2. in Javascript React element is just an object
+3. jsx is a javascript syntax which is easier to create react element.
