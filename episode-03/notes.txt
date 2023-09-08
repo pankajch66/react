@@ -8,4 +8,10 @@ third - write "git pusm origin main" thats all.
 -"build":"parcel build.html",
 ="text":"jest";
 2. in Javascript React element is just an object
-3. jsx is a javascript syntax which is easier to create react element.
+3. jsx is a javascript syntax which is easier to create react element. It is a HTML like syntax. It is not HTML.
+4. JSX( transpiled before it reaches the JS) - it is transpiled by parcel and parcel gives the job to Babel for transpiling it. It takes JSX code that react understand.
+-----
+there are two type of components in react
+1. class base components(old way of writing code).it uses javascript classes
+2. functional components()uses function in js. is a normal js function which returns some piece of JSX code.
+3. component composition means we are composing two components. means puting one thing inside another.
